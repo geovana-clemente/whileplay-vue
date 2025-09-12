@@ -45,3 +45,23 @@ header {
   }
 }
 </style>
+
+<template>
+  <LayoutContainer>
+    <router-view />
+  </LayoutContainer>
+</template>
+
+<script>
+import LayoutContainer from './components/LayoutContainer.vue';
+
+export default {
+  components: {
+    LayoutContainer
+  }
+};
+</script>
+
+<style>
+/* Global styles can be added here */
+</style>
